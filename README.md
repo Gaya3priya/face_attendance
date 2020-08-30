@@ -9,17 +9,17 @@ All the dependencies and required libraries are included in the file [requiremen
 
 ## Installation:
 1. clone the repo
-'''
+```
 $ git clone https://github.com/Gaya3priya/face_attendance.git
-'''
+```
 2.Change your directory to the cloned repo and create a Python virtual environment named 'testenv'
-'''
+```
 $ mkvirtualenv testenv
-'''
+```
 3.Now, run the following command in your Terminal/Command Prompt to install the libraries required
-'''
+```
 $ pip3 install -r requirements.txt
-'''
+```
 
 
 ## Objectives of the project:
