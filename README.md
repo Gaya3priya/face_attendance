@@ -29,7 +29,7 @@ $ pip3 install -r requirements.txt
 
 ### - Capturing faces:
 
-System will capture image of the user through webcam.Once face of the user is shown up in webcam, then we will detect the face in the webcam by using haarcascade_frontalface_default.xml.Once face is detected we will capture each frame of user face in different scale and angle like which is in the [capturefaces.py](capturefaces) file.
+System will capture image of the user through webcam.Once face of the user is shown up in webcam, then we will detect the face in the webcam by using haarcascade_frontalface_default.xml.Once face is detected we will capture each frame of user face in different scale and angle like which is in the [capturefaces.py](https://github.com/Gaya3priya/face_attendance/blob/master/capturefaces.py) file.
 These frames will be encoded in text format and saving them with employeeID.txt by asking user/employee to enter his/her ID and will be saved in [captured_faces](captured_faces) folder in our system for future use.
 
 ### - Detection:
