@@ -3,8 +3,13 @@
 ## Description:
 An face detector developed to mark the attendance of a student which is developed with the help of computer vision and deep learning using Python, OpenCV, and TensorFlow/Keras. In the present scenario due to Covid-19, there is no efficient education systems other than the online facilities, attendence has become an issue. This app can help in taking the attendence not only in educational institutions, but also in the offices.
 
-## Prerequisites:
-All the dependencies and required libraries are included in the file requirements.txt
+
+
+
+## Installation:
+
+1.clone the repo
+$ git clone https://github.com/Gaya3priya/face_attendance.git
 
 ## Objectives of the project:
 #### 1) Capturing faces.
