@@ -5,7 +5,7 @@ An face detector developed to mark the attendance of a student which is develope
 
 
 ## Prerequisites:
-All the dependencies and required libraries are included in the file [a relative link](requirements.txt)
+All the dependencies and required libraries are included in the file [requirements.txt](requirements.txt)
 
 ## Objectives of the project:
 #### 1) Capturing faces.
