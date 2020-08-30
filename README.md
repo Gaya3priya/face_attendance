@@ -7,6 +7,15 @@ An face detector developed to mark the attendance of a student which is develope
 ## Prerequisites:
 All the dependencies and required libraries are included in the file [requirements.txt](requirements.txt)
 
+## Installation:
+1. clone the repo
+'''$ git clone https://github.com/Gaya3priya/face_attendance.git'''
+2.Change your directory to the cloned repo and create a Python virtual environment named 'testenv'
+'''$ mkvirtualenv testenv'''
+3.Now, run the following command in your Terminal/Command Prompt to install the libraries required
+'''$ pip3 install -r requirements.txt'''
+
+
 ## Objectives of the project:
 #### 1) Capturing faces.
 #### 2) Detection.
@@ -19,7 +28,7 @@ These frames will be encoded in text format and saving them with employeeID.txt 
 
 ### - Detection:
 
-The [facedetection.py](facedetection.py) file will detect faces in the image by using haarcascade_frontalface_default.xml and OpenCV.And return the bounding boxes around the faces in the image.
+The [facedetection.py](facedetection.py) file will detect faces in the image by using haarcascade_frontalface_default.xml and OpenCV.And return the bounding boxes around the faces in the image.The [facedetector.py](facedetector.py) file will be like liveness detection.It can detect faces without detecting fake faces.
 We can use a dataset like here  we used [caltech_faces](caltech_faces) dataset to detect and recognise the faces for testing the model.So for loading images from that folders we use [datasets.py](datasets.py) file.
 
 ### - Recognition:
